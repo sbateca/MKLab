@@ -24,3 +24,6 @@ yarn-error.log*
 
 # fake Api
 /api
+
+# npm libraries config
+package-lock.json

@@ -4,7 +4,7 @@ import { MicrolabLayout } from './presentation/Layout';
 
 const App = () => (
     <Admin layout={MicrolabLayout}>
-        <Resource name="" />
+        <Resource name='' />
     </Admin>
 );
 
