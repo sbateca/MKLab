@@ -23,7 +23,15 @@ export const CustomMenu = () => {
     };
 
     return (
-        <Menu>
+        <Menu sx={{ 
+            '&.RaMenuItemLink-active': {
+                borderLeft: '10px solid #4f3cc9',
+            },
+            '& .RaMenuItemLink': {
+                width: '500px',
+            },
+            width: '100'
+        }}>
             <Menu.DashboardItem />
             <Menu.Item to='/reports' primaryText='Reporte de ensayos' leftIcon={<TextSnippetIcon />} />
             <Menu.Item
