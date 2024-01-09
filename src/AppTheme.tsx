@@ -95,7 +95,7 @@ export const mkLabLightTheme = {
     borderRadius: 5,
   },
   sidebar: {
-    width: 200,
+    width: 300,
     minWidth: 60,
   },
   components: {
